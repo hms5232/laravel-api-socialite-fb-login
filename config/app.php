@@ -13,7 +13,11 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    /*
+     * Project repo:
+     * https://github.com/hms5232/laravel-api-socialite-fb-login
+     */
+    'name' => env('APP_NAME', 'laravel-api-socialite-fb-login'),
 
     /*
     |--------------------------------------------------------------------------
@@ -67,7 +71,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Asia/Taipei',
 
     /*
     |--------------------------------------------------------------------------
@@ -80,7 +84,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'zh-TW',
 
     /*
     |--------------------------------------------------------------------------
