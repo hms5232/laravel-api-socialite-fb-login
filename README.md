@@ -1,3 +1,35 @@
+# laravel-api-socialite-fb-login
+[〈Laravel Socialite 實作前後端分離的第三方登入 API〉](https://hms5232.medium.com/laravel-socialite-%E5%AF%A6%E4%BD%9C%E5%89%8D%E5%BE%8C%E7%AB%AF%E5%88%86%E9%9B%A2%E7%9A%84%E7%AC%AC%E4%B8%89%E6%96%B9%E7%99%BB%E5%85%A5-api-284ce2819667)的範例程式碼。  
+使用 Facebook 登入示範在前後端分離的 Laravel API 上怎麼快速實作第三方登入。
+
+## 需求
+以本專案範例來說：
+* PHP 7.3 或以上
+* composer
+
+## 部署
+1. Clone 或下載程式碼後切換至專案根目錄
+2. `cp .env.example .env` 然後設定 `.env` 中的參數，主要有以下幾項需要設定：
+    * `DB_` 開頭之資料庫相關設定
+    * `FB_` 開頭之使用 FB 登入相關設定
+3. `composer install`
+4. `php artisan key:generate`
+5. `php artisan migrate`
+6. `php artisan serve` 來開啟測試用的 server 在 8000 連接埠
+
+## 參考資料
+* https://laravel.com/docs/8.x
+* https://dotblogs.com.tw/SmallFish/2019/11/17/140836
+* https://learnku.com/laravel/t/18864
+* https://www.mxp.tw/5347/
+* https://ithelp.ithome.com.tw/articles/10225405
+
+## LICENSE
+See [LICENSE file](LICENSE).
+
+
+---
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
